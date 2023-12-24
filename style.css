@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+
+
+}
+
+.container {
+    margin: 200px;
+    padding: 190px;
+    width: 40%;
+    background-color: hsl(244, 38%, 16%);
+    position: relative;
+
+
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    margin-top: 50px;
+    color: hsl(0, 0%, 100%);
+
+
+
+}
+
+.colored-word {
+    color: hsl(277, 64%, 61%);
+
+}
+
+
+
+.para {
+    margin-top: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+
+}
+
+.one {
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 90px;
+
+    display: flex;
+
+    justify-self: start;
+    justify-content: space-between;
+
+}
+
+.colored-word1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 460px;
+    /* Set the width of the image */
+    height: auto;
+
+}
+
+.color-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(277, 64%, 61%);
+    mix-blend-mode: multiply;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
